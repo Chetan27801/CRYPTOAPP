@@ -16,7 +16,7 @@ const Header = () => {
 						},
 					}}
 				>
-					<Link to="/projectCryptoApp">Home</Link>
+					<Link to="/">Home</Link>
 				</Button>
 				<Button
 					variant={"unstyled"}

@@ -5,7 +5,6 @@ import Coins from "./components/Coins";
 import Exchanges from "./components/Exchanges";
 import CoinDetails from "./components/CoinDetails";
 import Footer from "./components/Footer";
-import ParticlesBg from "particles-bg";
 
 function App() {
 	return (
@@ -14,7 +13,7 @@ function App() {
 			<div className="parti_bg_all">
 			</div>
 			<Routes>
-				<Route path="/projectCryptoApp" element={<Home />} />
+				<Route path="/" element={<Home />} />
 				<Route path="/coins" element={<Coins />} />
 				<Route path="/exchanges" element={<Exchanges />} />
 				<Route path="/coin/:id" element={<CoinDetails />} />

@@ -1,7 +1,8 @@
 import { Box, Image, Text } from "@chakra-ui/react";
-import React from "react";
+// import React, { useEffect } from "react";
 import btcSrc from "../assets/btc.png";
 import { motion } from "framer-motion";
+// import { useNavigate } from "react-router-dom";
 
 const Home = () => {
 	return (
