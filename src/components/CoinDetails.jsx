@@ -102,7 +102,7 @@ const CoinDetails = () => {
 	if (error) return <ErrorComponent message={"Error While Fetching Coin"} />;
 
 	return (
-		<Container maxW={"container.xl"}>
+		<Container maxW={"container.xl"} marginTop={"20"}>
 			{loading ? (
 				<Loader />
 			) : (
